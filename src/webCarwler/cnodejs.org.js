@@ -23,7 +23,7 @@ function getHtml ({ params } = {}) {
 }
 function getPage ($) {
   const pageEl = $('.pagination')
-  const totalPage = Number(pageEl.find('li').last().find('a').attr('href') .slice(-1))
+  const totalPage = Number(pageEl.find('li').last().find('a').attr('href').slice(-1))
   return {
     totalPage,
   }
